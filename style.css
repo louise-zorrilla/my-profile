@@ -1,0 +1,108 @@
+/* Colors and fonts*/
+
+body {
+	background: #F7F9FC;
+	color: #575F7D;
+	font-family: 'AR One Sans', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1 {
+	color: #8D5A64;
+	font size: 35px;
+	font-family: 'Young Serif', serif;
+}
+
+h2 {
+	color: #A76571;
+	font-size: 24px;
+	font-family: 'AR One Sans', sans-serif;
+	font-weight: bold;
+}
+
+
+a {
+	text-decoration: none;
+	color: #575F7D;
+}
+
+
+
+/*Custom desing with class*/
+
+#img-round {
+	height: 250px;
+	width:250px;
+	border-radius: 50%;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	line-height: 1.8;
+}
+
+@media(max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+
+}
+
+
+@media(max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-pink {
+	background-color: #A76571;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover {
+	background-color: #575F7D;
+}
+
+.link-blue:hover{
+	color: #A76571;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	letter-spacing: 4px;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.list-inline i {
+	font-size: 35px;
+}
+
+#introduction p {
+	margin-bottom: 25px;
+}
